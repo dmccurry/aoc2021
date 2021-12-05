@@ -110,6 +110,5 @@ fs.readFile('./input', 'utf-8', (err, data) => {
       }
     }
   }
-  printGrid();
   console.log(`Solution is ${score}`);
 });
