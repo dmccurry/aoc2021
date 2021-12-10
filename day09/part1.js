@@ -39,7 +39,7 @@ fs.readFile('./input', 'utf-8', (err, data) => {
       }
     }
   }
-  console.log(`Solution is ${total}`);
+  // console.log(`Solution is ${total}`);
   const endTime = performance.now();
-  console.log(`Took ${endTime - startTime}ms`);
+  console.log(`Part 1: Took ${endTime - startTime}ms`);
 })

@@ -57,7 +57,7 @@ fs.readFile('./input', 'utf-8', (err, data) => {
   }
 
   allBasinSizes.sort((a, b) => b-a);
-  console.log(`Solution is ${allBasinSizes[0] * allBasinSizes[1] * allBasinSizes[2]}`);
+  // console.log(`Solution is ${allBasinSizes[0] * allBasinSizes[1] * allBasinSizes[2]}`);
   const endTime = performance.now();
-  console.log(`Took ${endTime - startTime}ms`);
+  console.log(`Part 2: Took ${endTime - startTime}ms`);
 })
